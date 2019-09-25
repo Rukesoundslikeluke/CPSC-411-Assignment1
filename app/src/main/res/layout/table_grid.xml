@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="11" android:columnCount="5" android:orientation="vertical">
+    <!-- Column1 + title -->
+    <TextView android:text="1"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="2"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="3"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="4"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="5"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="6"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="7"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="8"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="9"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="10" android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="11" android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
+    <TextView android:text="Rules void hello1(int hour)" android:textColor="@android:color/white" android:background="@android:color/black" android:gravity="center" android:layout_columnSpan="4" android:minWidth="1365px"/>
+    <!-- Column2 -->
+    <TextView android:text="properties" android:background="@drawable/thick_border"       android:minWidth="225px" android:gravity="center" android:layout_rowSpan="2" android:layout_width="match_parent" android:minHeight="100px"/>
+    <TextView android:text="Rule"       android:background="@drawable/thick_border_cyan"  android:minWidth="225px" android:gravity="center"     android:textStyle="bold"/>
+    <TextView android:text=""           android:background="@drawable/thick_border_cyan"  android:minWidth="225px" />
+    <TextView android:text=""           android:background="@drawable/thick_border_cyan"  android:minWidth="225px" />
+    <TextView android:text="Rule"       android:background="@drawable/thick_border"       android:minWidth="225px" android:paddingLeft="10dp"   android:textStyle="bold"/>
+    <TextView android:text="R10"        android:background="@drawable/thick_border"       android:minWidth="225px" android:paddingLeft="10dp"/>
+    <TextView android:text="R20"        android:background="@drawable/thick_border"       android:minWidth="225px" android:paddingLeft="10dp"/>
+    <TextView android:text="R30"        android:background="@drawable/thick_border"       android:minWidth="225px" android:paddingLeft="10dp"/>
+    <TextView android:text="R40"        android:background="@drawable/thick_border"       android:minWidth="225px" android:paddingLeft="10dp"/>
+    <!-- Column3&4 -->
+    <TextView android:text="name"       android:background="@drawable/thick_border"       android:minWidth="470px" android:gravity="center" android:layout_columnSpan="2"/>
+    <TextView android:text="category"   android:background="@drawable/thick_border"       android:minWidth="470px" android:gravity="center" android:layout_columnSpan="2"/>
+    <TextView android:text="C1"         android:background="@drawable/thick_border_cyan"  android:minWidth="470px" android:gravity="center" android:layout_columnSpan="2" android:textStyle="bold"/>
+    <TextView android:text="min <= hour &amp;&amp; hour <= max"  android:background="@drawable/thick_border_cyan"  android:minWidth="470px" android:gravity="center" android:layout_columnSpan="2"/>
+    <!-- Column3 -->
+    <TextView android:text="int min"  android:background="@drawable/thick_border_cyan"    android:minWidth="235px" android:gravity="center"/>
+    <TextView android:text="From"     android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingLeft="10dp"  android:gravity="left"    android:textStyle="bold"/>
+    <TextView android:text="0"        android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingRight="10dp" android:gravity="right"/>
+    <TextView android:text="12"       android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingRight="10dp" android:gravity="right"/>
+    <TextView android:text="18"       android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingRight="10dp" android:gravity="right"/>
+    <TextView android:text="22"       android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingRight="10dp" android:gravity="right"/>
+    <!-- Column4 -->
+    <TextView android:text="int max"  android:background="@drawable/thick_border_cyan"    android:minWidth="235px" android:gravity="center"/>
+    <TextView android:text="To"       android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingLeft="10dp"  android:gravity="left"    android:textStyle="bold"/>
+    <TextView android:text="11"       android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingRight="10dp" android:gravity="right"/>
+    <TextView android:text="17"       android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingRight="10dp" android:gravity="right"/>
+    <TextView android:text="21"       android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingRight="10dp" android:gravity="right"/>
+    <TextView android:text="23"       android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingRight="10dp" android:gravity="right"/>
+    <!-- Column5 -->
+    <TextView android:text="Day Hour Classification"  android:background="@drawable/thick_border"       android:minWidth="670px" android:paddingLeft="10dp"/>
+    <TextView android:text="Day and Time"             android:background="@drawable/thick_border"       android:minWidth="670px" android:paddingLeft="10dp"/>
+    <TextView android:text="A1"                       android:background="@drawable/thick_border_cyan"  android:minWidth="670px" android:gravity="center" android:textStyle="bold"/>
+    <TextView android:text="System.out.println(greeting + &quot;,World!&quot;)" android:background="@drawable/thick_border_cyan" android:minWidth="670px" android:gravity="center"/>
+    <TextView android:text="String greeting" android:background="@drawable/thick_border_cyan"   android:minWidth="670px" android:gravity="center"/>
+    <TextView android:text="Greeting"        android:background="@drawable/thick_border_orange" android:minWidth="670px" android:paddingLeft="10dp" android:textStyle="bold"/>
+    <TextView android:text="Good Morning"    android:background="@drawable/thick_border_orange" android:minWidth="670px" android:paddingLeft="10dp"/>
+    <TextView android:text="Good Afternoon"  android:background="@drawable/thick_border_orange" android:minWidth="670px" android:paddingLeft="10dp"/>
+    <TextView android:text="Good Evening"    android:background="@drawable/thick_border_orange" android:minWidth="670px" android:paddingLeft="10dp"/>
+    <TextView android:text="Good Night"      android:background="@drawable/thick_border_orange" android:minWidth="670px" android:paddingLeft="10dp"/>
+
+
+</GridLayout>

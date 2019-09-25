@@ -15,11 +15,6 @@ public class MainActivity extends Activity {
         super.onCreate(SavedInstanceState);
 
         //Layout types
-        ViewGroup.LayoutParams MW = new ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT
-        );
-
         ViewGroup.LayoutParams WW = new ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
@@ -290,7 +285,7 @@ public class MainActivity extends Activity {
             col5txt.setMinWidth(col5width);
             root.addView(col5txt);
         }
-        
+
         setContentView(root);
     }
 
