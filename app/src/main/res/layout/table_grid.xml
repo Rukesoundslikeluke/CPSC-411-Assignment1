@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="11" android:columnCount="5" android:orientation="vertical">
+    android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="11" android:columnCount="5" android:orientation="vertical" android:layout_gravity="bottom">
     <!-- Column1 + title -->
     <TextView android:text="1"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
     <TextView android:text="2"  android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
@@ -15,7 +15,7 @@
     <TextView android:text="11" android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
     <TextView android:text="Rules void hello1(int hour)" android:textColor="@android:color/white" android:background="@android:color/black" android:gravity="center" android:layout_columnSpan="4" android:minWidth="1365px"/>
     <!-- Column2 -->
-    <TextView android:text="properties" android:background="@drawable/thick_border"       android:minWidth="225px" android:gravity="center" android:layout_rowSpan="2" android:layout_width="match_parent" android:minHeight="100px"/>
+    <TextView android:text="properties" android:background="@drawable/thick_border"       android:minWidth="225px" android:gravity="center" android:layout_rowSpan="2" android:layout_height="match_parent" android:minHeight="100px"/>
     <TextView android:text="Rule"       android:background="@drawable/thick_border_cyan"  android:minWidth="225px" android:gravity="center"     android:textStyle="bold"/>
     <TextView android:text=""           android:background="@drawable/thick_border_cyan"  android:minWidth="225px" />
     <TextView android:text=""           android:background="@drawable/thick_border_cyan"  android:minWidth="225px" />
@@ -28,7 +28,7 @@
     <TextView android:text="name"       android:background="@drawable/thick_border"       android:minWidth="470px" android:gravity="center" android:layout_columnSpan="2"/>
     <TextView android:text="category"   android:background="@drawable/thick_border"       android:minWidth="470px" android:gravity="center" android:layout_columnSpan="2"/>
     <TextView android:text="C1"         android:background="@drawable/thick_border_cyan"  android:minWidth="470px" android:gravity="center" android:layout_columnSpan="2" android:textStyle="bold"/>
-    <TextView android:text="min <= hour &amp;&amp; hour <= max"  android:background="@drawable/thick_border_cyan"  android:minWidth="470px" android:gravity="center" android:layout_columnSpan="2"/>
+    <TextView android:text= "min &lt;= hour &amp;&amp; hour &lt;= max"  android:background="@drawable/thick_border_cyan"  android:minWidth="470px" android:gravity="center" android:layout_columnSpan="2"/>
     <!-- Column3 -->
     <TextView android:text="int min"  android:background="@drawable/thick_border_cyan"    android:minWidth="235px" android:gravity="center"/>
     <TextView android:text="From"     android:background="@drawable/thick_border_yellow"  android:minWidth="235px" android:paddingLeft="10dp"  android:gravity="left"    android:textStyle="bold"/>
@@ -53,7 +53,14 @@
     <TextView android:text="Good Morning"    android:background="@drawable/thick_border_orange" android:minWidth="670px" android:paddingLeft="10dp"/>
     <TextView android:text="Good Afternoon"  android:background="@drawable/thick_border_orange" android:minWidth="670px" android:paddingLeft="10dp"/>
     <TextView android:text="Good Evening"    android:background="@drawable/thick_border_orange" android:minWidth="670px" android:paddingLeft="10dp"/>
-    <TextView android:text="Good Night"      android:background="@drawable/thick_border_orange" android:minWidth="670px" android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/thick_border_orange"
+        android:minWidth="670px"
+        android:paddingLeft="10dp"
+        android:text="Good Night" />
 
 
 </GridLayout>

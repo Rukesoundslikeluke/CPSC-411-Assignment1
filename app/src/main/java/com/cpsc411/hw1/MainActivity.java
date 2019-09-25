@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.GridLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -28,7 +29,6 @@ public class MainActivity extends Activity {
         root.setRowCount(11);
 
         //Column widths
-
         int col1width = 60;
         int col2width = 225;
         int col3width = 470; // handles 3 and 4
@@ -286,7 +286,9 @@ public class MainActivity extends Activity {
             root.addView(col5txt);
         }
 
-        setContentView(root);
+        //COMMENT OUT DEPENDING ON WHICH YOU WANT TO TEST
+        //setContentView(root);
+        setContentView(R.layout.table_grid);
     }
 
 }
