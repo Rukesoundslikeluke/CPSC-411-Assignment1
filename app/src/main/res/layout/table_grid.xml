@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="11" android:columnCount="5" android:orientation="vertical" android:layout_gravity="bottom">
     <!-- Column1 + title -->
@@ -15,7 +19,7 @@
     <TextView android:text="11" android:background="@drawable/thin_border" android:minWidth="60px" android:gravity="center"/>
     <TextView android:text="Rules void hello1(int hour)" android:textColor="@android:color/white" android:background="@android:color/black" android:gravity="center" android:layout_columnSpan="4" android:minWidth="1365px"/>
     <!-- Column2 -->
-    <TextView android:text="properties" android:background="@drawable/thick_border"       android:minWidth="225px" android:gravity="center" android:layout_rowSpan="2" android:layout_height="match_parent" android:minHeight="100px"/>
+    <TextView android:text="properties" android:background="@drawable/thick_border"       android:minWidth="225px" android:gravity="center" android:layout_rowSpan="2" android:layout_height="match_parent" android:layout_rowWeight="1"/>
     <TextView android:text="Rule"       android:background="@drawable/thick_border_cyan"  android:minWidth="225px" android:gravity="center"     android:textStyle="bold"/>
     <TextView android:text=""           android:background="@drawable/thick_border_cyan"  android:minWidth="225px" />
     <TextView android:text=""           android:background="@drawable/thick_border_cyan"  android:minWidth="225px" />
@@ -64,3 +68,4 @@
 
 
 </GridLayout>
+</HorizontalScrollView>

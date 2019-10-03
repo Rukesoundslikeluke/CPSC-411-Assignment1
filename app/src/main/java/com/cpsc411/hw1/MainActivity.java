@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.GridLayout;
+import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -285,9 +286,10 @@ public class MainActivity extends Activity {
             col5txt.setMinWidth(col5width);
             root.addView(col5txt);
         }
-
+        HorizontalScrollView wrapper = new HorizontalScrollView(this);
+        wrapper.addView(root);
         //COMMENT OUT DEPENDING ON WHICH YOU WANT TO TEST
-        //setContentView(root);
+        //setContentView(wrapper);
         setContentView(R.layout.table_grid);
     }
 
